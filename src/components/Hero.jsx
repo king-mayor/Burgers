@@ -37,21 +37,21 @@ const Hero = () => {
         infinite={true}
         arrows={false}
       >
-        <div className="flex items-center justify-center px-10 bg-[#002c64] py-20">
+        <div className="flex items-center justify-center px-10 bg-[#002c64] py-28">
           <div className="lg:flex hidden">
             <Image src={b1} alt="hero-bg" />
           </div>
           <div>
-            <h2 className="capitalize text-yellow-500 text-4xl font-semibold">
+            <h2 className="capitalize text-yellow-500 text-5xl font-bold">
               fast food burger
             </h2>
-            <h1 className="text-5xl font-bold uppercase text-gray-200 py-2">
+            <h1 className="text-7xl font-bold uppercase text-gray-200 py-2">
               best<br></br> burgers
             </h1>
             <p className="text-gray-200 text-lg">
               Our burgers are the best because we perfectly balance flavor,
               quality, and love in every patty, bun, and topping, ensuring each
-              bite is a mouthwatering experience that exceeds our customers'
+              bite is a mouthwatering experience that will exceed our customers'
               expectations.
             </p>
             <button className="flex items-center gap-1 text-white px-6 py-3 rounded-lg font-bold bg-[#218b50] hover:bg-[#05965a] my-4">
@@ -62,15 +62,15 @@ const Hero = () => {
             </button>
           </div>
         </div>
-        <div className="flex items-center justify-center px-10 bg-[#4e0101] py-20">
+        <div className="flex items-center justify-center px-10 bg-[#4e0101] py-28">
           <div className="lg:flex hidden">
             <Image src={b1} alt="hero-bg" />
           </div>
           <div>
-            <h2 className="capitalize text-yellow-500 text-4xl font-semibold">
+            <h2 className="capitalize text-yellow-500 text-5xl font-bold">
               tasty burger
             </h2>
-            <h1 className="text-5xl font-bold uppercase text-gray-200 py-2">
+            <h1 className="text-7xl font-bold uppercase text-gray-200 py-2">
               top<br></br> burgers
             </h1>
             <p className="text-gray-200 text-lg">

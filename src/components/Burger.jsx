@@ -13,7 +13,7 @@ const Burger = () => {
             love and <span className="text-red-600">Care</span>
           </h1>
         </div>
-        <div className="mx-auto container grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 justify-center gap-10 px-20 items-center text-center py-20">
+        <div className="mx-auto container grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 justify-center gap-10 lg:px-0 px-10 items-center text-center py-20">
           <div className="1st hover:bg-white p-6 rounded-xl">
             <Image src={burger1} alt="burger" className="rounded-xl" />
             <h2 className="text-black text-2xl font-bold capitalize py-2">

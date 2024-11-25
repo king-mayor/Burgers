@@ -7,7 +7,7 @@ import { IoFastFood } from "react-icons/io5";
 const Shipping = () => {
   return (
     <div>
-      <div className="flex lg:justify-center justify-start lg:flex-row items-center flex-col gap-10 py-28 px-10">
+      <div className="flex lg:justify-center justify-start lg:flex-row items-center flex-col gap-10 py-28 lg:px-0 px-10">
         <div className="1st lg:w-2/3 w-full">
           <Image src={delivery} alt="delivery" />
         </div>
