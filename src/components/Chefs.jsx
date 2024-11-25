@@ -20,8 +20,8 @@ const Chefs = () => {
               kitchen potter
             </button>
             <p className="text-slate-900 text-center px-10">
-              Collaborate with the culinary team to develop new menu items and
-              as well take part in kitchen duties.
+              Collaborate with the culinary team to develop new menu items,
+              attend to customer needs and as well take part in kitchen duties.
             </p>
           </div>
           <div className="1st flex flex-col justify-center items-center">

@@ -1,3 +1,4 @@
+
 import Burger from '@/components/Burger';
 import BurgerSlider from '@/components/BurgerSlider';
 import Chefs from '@/components/Chefs';
@@ -6,6 +7,7 @@ import Hero from '@/components/Hero';
 import Join from '@/components/Join';
 import Navbar from '@/components/Navbar';
 import Reservation from '@/components/Reservation';
+import ScrollToTop from '@/components/ScrollToTop';
 import Shipping from '@/components/Shipping';
 import React from 'react'
 
@@ -21,6 +23,7 @@ const Home = () => {
       <Reservation/>
       <Join/>
       <Footer/>
+      <ScrollToTop/>
     </div>
   )
 }

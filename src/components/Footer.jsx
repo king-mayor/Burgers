@@ -14,7 +14,7 @@ const Footer = () => {
             </h1>
             <h1 className="text-3xl font-bold text-gray-200">BurgerBite</h1>
           </div>
-          <p className="text-md text-gray-200">
+          <p className="text-md text-gray-200 py-2">
             Not your regular burger. We offer rich and nutritious burgers made
             with the best hands!
           </p>

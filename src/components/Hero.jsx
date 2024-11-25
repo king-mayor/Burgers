@@ -35,9 +35,9 @@ const Hero = () => {
         transitionDuration={1000}
         autoPlay={true}
         infinite={true}
-        arrows={true}
+        arrows={false}
       >
-        <div className="flex items-center justify-center px-10 bg-[#002c64] py-10">
+        <div className="flex items-center justify-center px-10 bg-[#002c64] py-20">
           <div className="lg:flex hidden">
             <Image src={b1} alt="hero-bg" />
           </div>
@@ -62,7 +62,7 @@ const Hero = () => {
             </button>
           </div>
         </div>
-        <div className="flex items-center justify-center px-10 bg-[#4e0101] py-10">
+        <div className="flex items-center justify-center px-10 bg-[#4e0101] py-20">
           <div className="lg:flex hidden">
             <Image src={b1} alt="hero-bg" />
           </div>
