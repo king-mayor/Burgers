@@ -8,8 +8,8 @@ const Burger = () => {
     <div>
       <div className="py-20">
         <div className="text-center">
-          <h1 className="text-5xl font-bold">burgers made with</h1>
-          <h1 className="text-5xl font-bold">
+          <h1 className="text-5xl font-bold uppercase">burgers made with</h1>
+          <h1 className="text-5xl font-bold uppercase">
             love and <span className="text-red-600">Care</span>
           </h1>
         </div>

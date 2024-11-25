@@ -72,7 +72,7 @@ const Navbar = () => {
         {/* NAVABAR SECTION */}
         <div className="">
           {show && (
-            <div className="bg-gray-900 fixed right-0 left-0 top-0 w-full h-screen lg:hidden"></div>
+            <div className="bg-[#f2f2f2] fixed right-0 left-0 top-0 w-full h-screen lg:hidden"></div>
           )}
         </div>
         {show && (
