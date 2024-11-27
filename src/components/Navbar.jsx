@@ -79,35 +79,35 @@ const Navbar = () => {
           <div className="2nd flex flex-col fixed top-0 w-[50%] h-screen bg-black lg:hidden z-50 text-center items-center py-10 gap-8 -translate-x-4 duration-1000 border-r-2 border-[#e0340c]">
             <Link
               href="#"
-              className="text-gray-200 text-xl font-semibold hover:text-red-600"
+              className="text-gray-200 text-2xl font-semibold hover:text-red-600"
             >
               Home
             </Link>
             <Link
               href="#"
-              className="text-gray-200 text-xl font-semibold hover:text-red-600"
+              className="text-gray-200 text-2xl font-semibold hover:text-red-600"
             >
               Shop
             </Link>
             <Link
               href="#"
-              className="text-gray-200 text-xl font-semibold hover:text-red-600"
+              className="text-gray-200 text-2xl font-semibold hover:text-red-600"
             >
               Menu
             </Link>
             <Link
               href="#"
-              className="text-gray-200 text-xl font-semibold hover:text-red-600"
+              className="text-gray-200 text-2xl font-semibold hover:text-red-600"
             >
               Blog
             </Link>
             <Link
               href="#"
-              className="text-gray-200 text-lg font-semibold hover:text-red-600"
+              className="text-gray-200 text-2xl font-semibold hover:text-red-600"
             >
               Contact
             </Link>
-            <button className="flex items-center gap-1 bg-[#002c64] text-white px-6 py-3 rounded-lg font-bold hover:bg-red-700">
+            <button className="flex items-center gap-1 bg-[#002c64] text-white px-6 py-3 text-2xl rounded-lg font-bold hover:bg-red-700">
               <span className="text-2xl">
                 <IoMdBicycle />
               </span>
