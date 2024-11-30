@@ -19,7 +19,7 @@ const Reservation = () => {
               <h1 className="lg:text-5xl text-4xl font-bold text-gray-200">
                 TABLE
               </h1>
-              <p className="text-lg py-2 text-gray-200">
+              <p className="text-lg py-4 text-gray-200">
                 Reserve a dinner table with us and indulge in an unforgettable
                 culinary experience. Enjoy mouth-watering burgers, exceptional
                 service, and a cozy atmosphere that's perfect for any occasion.
