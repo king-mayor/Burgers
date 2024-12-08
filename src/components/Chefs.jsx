@@ -8,12 +8,20 @@ const Chefs = () => {
     <div>
       <div>
         <div>
-          <h2 className="text-5xl font-bold uppercase text-slate-900 text-center">
+          <h2
+            className="text-5xl font-bold uppercase text-slate-900 text-center"
+            data-aos="zoom-in-up"
+            data-aos-duration="1000"
+          >
             MEET Our expert <span className="text-red-600">Chefs</span>
           </h2>
         </div>
         <div className="mx-auto container grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 justify-items-center items-center text-center py-14 gap-6">
-          <div className="1st flex flex-col justify-center items-center">
+          <div
+            className="1st flex flex-col justify-center items-center"
+            data-aos="zoom-in-up"
+            data-aos-duration="1000"
+          >
             <Image src={t1} alt="chef" className="rounded-2xl" />
             <h2 className="text-slate-900 text-3xl font-bold py-2">John Doe</h2>
             <button className="bg-[#218b50] hover:bg-[#186139] text-white py-2 px-6 cursor-pointer font-bold text-xl my-4">
@@ -24,7 +32,11 @@ const Chefs = () => {
               attend to customer needs and as well take part in kitchen duties.
             </p>
           </div>
-          <div className="1st flex flex-col justify-center items-center">
+          <div
+            className="1st flex flex-col justify-center items-center"
+            data-aos="zoom-in-up"
+            data-aos-duration="1000"
+          >
             <Image src={t2} alt="chef" className="rounded-2xl" />
             <h2 className="text-slate-900 text-3xl font-bold py-2">
               Mary Woods
@@ -38,7 +50,11 @@ const Chefs = () => {
               the kitchen.
             </p>
           </div>
-          <div className="1st flex flex-col justify-center items-center">
+          <div
+            className="1st flex flex-col justify-center items-center"
+            data-aos="zoom-in-up"
+            data-aos-duration="1000"
+          >
             <Image src={t3} alt="chef" className="rounded-2xl" />
             <h2 className="text-slate-900 text-3xl font-bold py-2">
               David Baker

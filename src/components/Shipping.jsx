@@ -8,10 +8,14 @@ const Shipping = () => {
   return (
     <div>
       <div className="flex lg:justify-center justify-start lg:flex-row items-center flex-col gap-10 py-28 lg:px-0 px-10">
-        <div className="1st lg:w-2/3 w-full">
+        <div
+          className="1st lg:w-2/3 w-full"
+          data-aos="slide-right"
+          data-aos-duration="1000"
+        >
           <Image src={delivery} alt="delivery" />
         </div>
-        <div className="2nd">
+        <div className="2nd" data-aos="slide-left" data-aos-duration="1000">
           <h2 className="md:text-6xl text-4xl uppercase font-bold">
             your <span className="text-red-600">favorite burger</span>
           </h2>

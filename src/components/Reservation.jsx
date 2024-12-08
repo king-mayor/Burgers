@@ -9,7 +9,7 @@ const Reservation = () => {
       <div className="bg-[url('../../public/IMAGES/bg-black.jpg')] bg-cover bg-no-repeat bg-center w-full py-28">
         <div className="">
           <div className="flex justify-center lg:flex-row flex-col items-center gap-10 px-10">
-            <div className="1st">
+            <div className="1st" data-aos="zoom-in-up" data-aos-duration="1000">
               <h1 className="lg:text-5xl text-4xl font-bold text-gray-200">
                 DO YOU HAVE ANY DINNER
               </h1>
@@ -41,7 +41,11 @@ const Reservation = () => {
                 </div>
               </div>
             </div>
-            <div className="2nd bg-[#218b50] flex flex-col justify-center items-center text-center lg:w-1/2 w-full rounded-2xl p-10">
+            <div
+              className="2nd bg-[#218b50] flex flex-col justify-center items-center text-center lg:w-1/2 w-full rounded-2xl p-10"
+              data-aos="flip-left"
+              data-aos-duration="1000"
+            >
               <div className="flex flex-col justify-center items-center">
                 <h2 className="text-5xl font-bold uppercase py-2 text-gray-200">
                   <RiContactsLine />

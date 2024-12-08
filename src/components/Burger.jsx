@@ -14,7 +14,11 @@ const Burger = () => {
           </h1>
         </div>
         <div className="mx-auto container grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 justify-center gap-10 lg:px-0 px-10 items-center text-center py-20">
-          <div className="1st hover:bg-white p-6 rounded-xl">
+          <div
+            className="1st hover:bg-white p-6 rounded-xl"
+            data-aos="zoom-in-up"
+            data-aos-duration="1000"
+          >
             <Image src={burger1} alt="burger" className="rounded-xl" />
             <h2 className="text-black text-2xl font-bold capitalize py-2">
               our burger
@@ -25,7 +29,11 @@ const Burger = () => {
               toasted bun
             </p>
           </div>
-          <div className="2nd lg:translate-y-10  hover:bg-white p-6 rounded-xl">
+          <div
+            className="2nd lg:translate-y-10  hover:bg-white p-6 rounded-xl"
+            data-aos="zoom-in-up"
+            data-aos-duration="1000"
+          >
             <Image src={burger2} alt="burger" className="rounded-xl" />
             <h2 className="text-black text-2xl font-bold capitalize py-2">
               Your Opinion is Important
@@ -36,7 +44,11 @@ const Burger = () => {
               customer loyalty.
             </p>
           </div>
-          <div className="3rd  hover:bg-white p-6 rounded-xl">
+          <div
+            className="3rd  hover:bg-white p-6 rounded-xl"
+            data-aos="zoom-in-up"
+            data-aos-duration="1000"
+          >
             <Image src={burger3} alt="burger" className="rounded-xl" />
             <h2 className="text-black text-2xl font-bold capitalize py-2">
               Chicken Burgers
