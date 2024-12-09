@@ -54,7 +54,7 @@ const Reservation = () => {
                   Reservation
                 </h2>
                 <h2 className="text-2xl font-bold uppercase py-4 text-gray-200">
-                  Book your table
+                  Book your table!
                 </h2>
               </div>
               <div className="flex gap-6">
