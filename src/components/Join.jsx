@@ -3,7 +3,11 @@ import React from "react";
 const Join = () => {
   return (
     <div>
-      <div className="flex flex-col justify-center items-center px-20 py-10">
+      <div
+        className="flex flex-col justify-center items-center px-20 py-10"
+        data-aos="zoom-in-up"
+        data-aos-duration="1000"
+      >
         <h2 className="text-slate-900 lg:text-5xl text-3xl font-bold uppercase">
           join for hot offers
         </h2>
