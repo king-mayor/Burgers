@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div className="bg-[#050408]">
       <div className="flex lg:justify-around lg:flex-row flex-col justify-start py-10 px-10 gap-2 lg:px-0 lg:gap-0">
-        <div className="1st">
+        <div className="1st" data-aos="zoom-in-up" data-aos-duration="1000">
           <div className="flex items-center gap-2">
             <h1>
               <FaHamburger className="text-[#e0340c] text-3xl font-bold" />
@@ -21,7 +21,7 @@ const Footer = () => {
           <h3 className="text-md text-gray-200">support@example.com</h3>
           <h2 className="text-2xl font-bold text-red-600">+(123) 2348 87378</h2>
         </div>
-        <div className="2nd">
+        <div className="2nd" data-aos="zoom-in-up" data-aos-duration="1000">
           <h2 className="text-2xl text-gray-200 font-bold">products</h2>
           <div className="py-2">
             <p className="text-md cursor-pointer text-gray-200 hover:text-yellow-700">
@@ -41,7 +41,7 @@ const Footer = () => {
             </p>
           </div>
         </div>
-        <div className="3rd">
+        <div className="3rd" data-aos="zoom-in-up" data-aos-duration="1000">
           <h2 className="text-2xl text-gray-200 font-bold">Quick Link</h2>
           <div className="py-2">
             <p className="text-md cursor-pointer text-gray-200 hover:text-yellow-700">
@@ -61,7 +61,7 @@ const Footer = () => {
             </p>
           </div>
         </div>
-        <div className="4th">
+        <div className="4th" data-aos="zoom-in-up" data-aos-duration="1000">
           <h2 className="text-2xl uppercase">Opening Hours</h2>
           <div>
             <h3 className="text-lg text-gray-200">
