@@ -76,7 +76,7 @@ const Navbar = () => {
           )}
         </div>
         {show && (
-          <div className="2nd flex flex-col fixed top-0 w-[50%] h-screen bg-black lg:hidden z-50 text-center items-center py-10 gap-8 -translate-x-4 duration-1000 border-r-2 border-[#e0340c]">
+          <div className="2nd flex flex-col fixed top-0 w-[75%] h-screen bg-black lg:hidden z-50 text-center items-center py-10 gap-8 -translate-x-4 duration-1000 border-r-2 border-[#e0340c]">
             <Link
               href="#"
               className="text-gray-200 text-2xl font-semibold hover:text-red-600"
